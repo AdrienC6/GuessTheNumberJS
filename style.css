@@ -1,0 +1,55 @@
+body {
+    background-color : #48dbfb;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height : 80vh;
+}
+input {
+    font-size : 10em;
+    text-align: center;
+    width : 200px;
+    height : 200px;
+    border : none;
+    outline: none;
+    background-color : rgba(255,255,255,.5);
+    color : #fff;
+    border-radius : 30px;
+    box-shadow: 0 0 3px #fff;;
+}
+
+.error{
+    background-color:#ee5253;
+}
+
+.success{
+    background-color: #1dd1a1;
+}
+
+.fa-glass-cheers {
+    font-size : 10em;
+    color : #fff;
+    display : none;
+}
+
+button {
+    background : rgba(255,255,255,0.5);
+    height : 50px;
+    width : 200px;
+    border-radius : 50px;
+    margin-top : 50px;
+    box-shadow: 0 0 3px #fff;
+    display : none;
+}
+
+button:hover {
+    transform: scale(1.15);
+    cursor : pointer;
+}
+
+h1, h2 {
+    color : #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom : 30px;
+}
